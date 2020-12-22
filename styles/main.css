@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* @import "react-slideshow-image/dist/styles.css"; */
+
+html,
+body {
+  @apply h-screen ;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #EFF6FF;
+}
+
+#__next {
+  @apply h-screen flex flex-col;
+}
+
+a,
+a:visited {
+  @apply  inline-block text-center align-middle ;
+}
+
+.bg-color {
+  background: black;
+}
+
+
+ .menu {
+  font-size: 22px;
+  color: #3f3d56;
+}
+
+ .menu.open {
+  position: fixed;
+  z-index: 2;
+  right: 3rem;
+}
+
+ .menu.open + nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.border-color{
+  border: 1px solid #878F9B;
+}
+
+.border-shadow{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.font-montserrat{
+  font-family: 'Montserrat', sans-serif regular;
+}
+
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+@media(min-width: 640px){
+  .margin-left{
+    margin-left: 700px;
+  }
+  
+}
+
+.imgOpacity {
+  opacity: 0.5;
+  color: #3f3d56;
+  background-color: #3f3d56;
+}
+
+.imgOpacity0 {
+  opacity: 1.0;
+}
+
+
+.bg-blue4{
+  background: #756E8D;
+backdrop-filter: blur(80px);
+
+}
+
+
+/* sm:grid sm:grid-flow-col sm:auto-cols-max sm:z-0 sm:ml-16 sm:space-x-16 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
+/* .each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+} */

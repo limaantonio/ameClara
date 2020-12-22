@@ -1,0 +1,78 @@
+.faqItem {
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6rem;
+   
+}
+
+    .accordion {
+       
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        cursor: pointer;
+        padding: 14px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        transition: #000 0.6s;
+        border-radius: 29px;
+        font-size: 1.5em;
+        margin: 0.2em 2em 0.8em 2em;
+        font-weight: 300;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    }
+        active:hover {
+            background-color:#fff;
+        }
+    
+
+  
+
+    .back{
+       
+        flex-direction: column;
+        float: left;
+        width: 40rem;
+        margin-top: -3rem;
+        border-radius: 0 0 29px 29px;
+        background: #fff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.4%;
+      
+    }
+
+   .description {
+        margin-top: 1rem;
+        padding: 1%;
+     
+        margin-top: 2.2rem;
+        
+    }
+
+    .description-container {
+        overflow: hidden;
+        transition: 0.2 0.6 ease;
+      
+      
+    }
+
+
+@media (max-width: 720px){
+    .faqItem{
+        width: 20rem;
+    }
+    .back{
+        width: 20rem;
+    }
+}

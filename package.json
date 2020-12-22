@@ -1,0 +1,50 @@
+{
+  "name": "with-tailwindcss",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9",
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.4",
+    "next": "latest",
+    "nuka-carousel": "^4.7.3",
+    "postcss": "^7",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-dialog": "^1.0.2",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-google-charts": "^3.0.15",
+    "react-instagram-embed": "^2.0.0",
+    "react-modal": "^3.11.2",
+    "react-responsive-carousel": "^3.2.10",
+    "react-slick": "^0.27.13",
+    "react-slideshow-image": "^3.4.2",
+    "react-toastify": "^6.0.8",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "5.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "node-sass": "^4.14.1"
+    
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.2.1"
+  },
+  "license": "MIT",
+  "eslint": "^7.11.0",
+  "eslint-config-prettier": "^6.13.0",
+  "eslint-plugin-jsx-a11y": "^6.3.1",
+  "eslint-plugin-prettier": "^3.1.4",
+  "eslint-plugin-react": "^7.21.5",
+  "eslint-plugin-react-hooks": "^4.1.2",
+  "prettier": "^2.1.2"
+}
